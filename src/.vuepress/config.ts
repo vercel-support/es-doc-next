@@ -11,4 +11,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   description,
 
   bundler: isProd ? '@vuepress/webpack' : '@vuepress/vite',
+
+  themeConfig: {
+    navbar: ['/guide/'],
+
+    // Пока что не работает
+    // https://github.com/vuepress/vuepress-next/issues/175
+    tip: 'Tip',
+    warning: 'Warning',
+    danger: 'Danger',
+  },
 })
