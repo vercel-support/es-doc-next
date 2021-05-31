@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sovue/es-doc-next/issues"
   },
-  "homepage": "https://github.com/sovue/es-doc-next#readme"
+  "homepage": "https://github.com/sovue/es-doc-next#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.16"
+  }
 }
