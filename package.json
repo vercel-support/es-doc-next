@@ -1,0 +1,20 @@
+{
+  "name": "es-doc-next",
+  "version": "0.0.1",
+  "description": "Документация по созданию модов для БЛ",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovue/es-doc-next.git"
+  },
+  "author": "Sovue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sovue/es-doc-next/issues"
+  },
+  "homepage": "https://github.com/sovue/es-doc-next#readme"
+}
