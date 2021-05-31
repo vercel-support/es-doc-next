@@ -1,0 +1,3 @@
+@function desaturate($color, $amount: 50%) {
+  @return scale-color($color, $saturation: -$amount);
+}

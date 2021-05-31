@@ -1,0 +1,18 @@
+@import 'functions/desaturate';
+@import 'variables';
+
+@mixin shared {
+  // Both themes config
+}
+
+:root {
+  @include shared;
+  --c-brand: #{$brand};
+  --c-brand-light: #{lighten($brand, 5%)};
+}
+
+html.dark {
+  @include shared;
+  --c-brand: #{$brandDark};
+  --c-brand-light: #{lighten($brandDark, 5%)};
+}
