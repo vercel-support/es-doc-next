@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { resolve } from 'path'
 
 import { description } from '../../package.json'
 
@@ -9,6 +10,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'ru',
   title: 'ES Doc',
   description,
+
+  alias: {
+    '@': resolve('./src/.vuepress'),
+  },
 
   bundler: isProd ? '@vuepress/webpack' : '@vuepress/vite',
 
