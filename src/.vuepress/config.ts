@@ -15,10 +15,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     navbar: ['/guide/'],
 
-    // Пока что не работает
-    // https://github.com/vuepress/vuepress-next/issues/175
-    tip: 'Tip',
-    warning: 'Warning',
-    danger: 'Danger',
+    tip: 'Совет',
+    warning: 'Внимание!',
+    danger: 'Особое внимание!',
   },
 })
