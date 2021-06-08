@@ -24,4 +24,13 @@ export default defineUserConfig<DefaultThemeOptions>({
     warning: 'Внимание!',
     danger: 'Особое внимание!',
   },
+
+  plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: resolve('./src/.vuepress/components'),
+      },
+    ],
+  ],
 })
