@@ -467,7 +467,7 @@ show un cry sport # Плачущая Лена в спортивной форме
 - `right`
 - `fright`
 
-![Пример расположения спрайтов](/images/examples/example_sprites_positioning.jpg)
+<!-- ![Пример расположения спрайтов](/images/examples/example_sprites_positioning.jpg) -->
 
 На скриншоте выше были использованы следующие команды:
 
@@ -483,7 +483,7 @@ show mt rage panama pioneer at center
 
 Так же можно показать персонажа ближе / дальше. Для этого можно воспользоваться атрибутом `close` / `far`.
 
-![Пример использования атрибутов close / far](/images/examples/example_sprites_distances.jpg)
+<!-- ![Пример использования атрибутов close / far](/images/examples/example_sprites_distances.jpg) -->
 
 На скриншоте выше как раз были использованны эти атрибуты. Команды:
 
