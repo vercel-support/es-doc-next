@@ -23,6 +23,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'ES Doc',
   description,
 
+  dest: 'public',
+  temp: '.temp',
+  cache: '.cache',
+
   alias: {
     '@': resolve('./src/.vuepress'),
   },
