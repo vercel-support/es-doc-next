@@ -19,7 +19,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     '@': resolve('./src/.vuepress'),
   },
 
-  bundler: isProd ? '@vuepress/webpack' : '@vuepress/vite',
+  bundler: '@vuepress/vite', // isProd ? '@vuepress/webpack' : '@vuepress/vite',
 
   themeConfig: {
     navbar: [
