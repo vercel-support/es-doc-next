@@ -2,20 +2,20 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import { request } from '@octokit/request'
 import { resolve } from 'path'
-import dotenv from 'dotenv'
+// import dotenv from 'dotenv'
 
 import resources from './assets/resources.json'
 import { description } from '../../package.json'
 
 import type { Resource } from './types/resources'
 
-dotenv.config()
+// dotenv.config()
 
 const isProd = process.env.NODE_ENV === 'production'
 const authReq = request.defaults({
-  headers: {
-    authorization: `token ${process.env.RESOURCES_TOKEN}`,
-  },
+  // headers: {
+  //   authorization: `token ${process.env.RESOURCES_TOKEN}`,
+  // },
 })
 
 export default defineUserConfig<DefaultThemeOptions>({

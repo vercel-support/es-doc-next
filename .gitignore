@@ -119,3 +119,6 @@ dist
 
 # Vuepress v2
 .temp
+.cache
+# Config for Vercel testing
+public
